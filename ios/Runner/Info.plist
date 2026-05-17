@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>Health Guardian</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>health_guardian</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(FLUTTER_BUILD_NAME)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>$(FLUTTER_BUILD_NUMBER)</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+	
+	<!-- Permissions -->
+	<key>NSCameraUsageDescription</key>
+	<string>Health Guardian needs camera access for facial analysis to detect distress signals and emergencies.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Health Guardian needs microphone access for voice analysis to detect breathing patterns and distress phrases.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Health Guardian needs location access to share your GPS location with emergency contacts during emergencies.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Health Guardian needs location access to continuously monitor your location for emergency detection and response.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Health Guardian needs location access to continuously monitor your location for emergency detection and response.</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Health Guardian needs Bluetooth access to connect to wearable devices for health monitoring.</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Health Guardian needs Bluetooth access to connect to wearable devices for health monitoring.</string>
+	<key>NSMotionUsageDescription</key>
+	<string>Health Guardian needs motion sensor access for fall detection and movement tracking.</string>
+	<key>NSFaceIDUsageDescription</key>
+	<string>Health Guardian needs Face ID access for secure authentication and privacy protection.</string>
+	
+	<!-- Background Modes -->
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>audio</string>
+		<string>location</string>
+		<string>background-processing</string>
+		<string>fetch</string>
+		<string>remote-notification</string>
+	</array>
+</dict>
+</plist>
